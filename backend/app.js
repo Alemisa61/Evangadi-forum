@@ -42,7 +42,7 @@ const start = async () => {
   
     console.log(`Listening on http://localhost:${PORT}`);
   } catch (error) {
-    console.log(error.message);
+    console.log(error);
   }
 };
 
